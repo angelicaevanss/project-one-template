@@ -9,10 +9,45 @@ display: block;}
 .topnav a:hover {
   color: white;}
 
-h3 {font-family: skolar-latin, serif;
+.page-title 
+{margin-top: 150px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;}
+
+.mental-self-care 
+{background-image: linear-gradient( #ffffff, #CAEBFD);}
+
+.mental-self-care .topnav 
+{background-color: #CAEBFD;
+-webkit-box-shadow: inset 0px -24px 40px -16px rgba(46,183,246,0.23);
+-moz-box-shadow: inset 0px -24px 40px -16px rgba(46,183,246,0.23);
+box-shadow: inset 0px -24px 40px -16px rgba(46,183,246,0.23);
+}
+
+.mental-self-care .footer {text-align: center; color: #42B5E8;} 
+
+h1 {font-family: skolar-latin, serif;
 font-weight: 700;
 font-style: normal;
-font-size: 32px;}
+font-size: 32px;
+padding-bottom:25px;
+text-align: center;}
+
+h2 { 
+font-family: skolar-sans-latin, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 18px;
+text-align: justify;
+text-justify: inter-word;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+width: 45%;
+line-height:120%;}
 
 h4 {font-family: skolar-sans-latin, sans-serif;
 font-weight: 400;
@@ -24,8 +59,26 @@ font-weight: 400;
 font-style: normal;
 font-size: 14px;}
 
+.footer 
+{margin-top: 100px;
+margin-bottom: 30px;
+font-family: skolar-sans-latin-extended, sans-serif;
+font-weight: 600;
+font-style: normal;
+letter-spacing: 1px;
+font-size: 18px;
+font-variant: small-caps;}
 
-.brainmaze {width: 600px;}
+.brainmaze {width: 600px;
+margin-top: 100px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+padding-bottom: 90px;
+padding-left: 80px;}
+
 .beautyproducts {width: 1000px;
 position: right;}
+
 .apps {width: 200px;}
