@@ -1,4 +1,29 @@
-.topnav {background-color: grey;
+ul 
+{list-style-type: none;
+margin: 0;
+padding: 0;
+display: inline;}
+
+li {text-decoration: none;}
+
+.menu 
+{float: right;
+padding-top: 30px;
+padding-right: 45px;
+padding-bottom: 30px;
+font-family: skolar-sans-latin-extended, sans-serif;
+font-weight: 600;
+font-style: normal;
+letter-spacing: 1px;
+font-size: 18px;
+font-variant: small-caps;}
+
+.home-button 
+{float: left;
+padding-left: 45px;}
+
+.topnav 
+{background-color: grey;
 overflow: hidden;
 text-align: right;
 padding: 14px, 16px;
@@ -6,27 +31,38 @@ text-decoration: none;
 font-size: 18px;
 display: block;}
 
-.topnav a:hover {
-  color: white;}
+.topnav a:hover 
+{color: white;}
 
 .page-title 
 {margin-top: 150px;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;}
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;}
 
 .mental-self-care 
 {background-image: linear-gradient( #ffffff, #CAEBFD);}
 
+.brainmaze {width: 600px;
+margin-top: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-bottom: 90px;
+padding-left: 80px;}
+
 .mental-self-care .topnav 
 {background-color: #CAEBFD;
--webkit-box-shadow: inset 0px -24px 40px -16px rgba(46,183,246,0.23);
--moz-box-shadow: inset 0px -24px 40px -16px rgba(46,183,246,0.23);
-box-shadow: inset 0px -24px 40px -16px rgba(46,183,246,0.23);
-}
+-webkit-box-shadow: inset 0px -41px 42px -23px rgba(88,182,240,0.44);
+-moz-box-shadow: inset 0px -41px 42px -23px rgba(88,182,240,0.44);
+box-shadow: inset 0px -41px 42px -23px rgba(88,182,240,0.44);}
 
-.mental-self-care .footer {text-align: center; color: #42B5E8;} 
+.mental-self-care .footer 
+{text-align: center;
+color: #42B5E8;
+padding-right: 10px;} 
 
 h1 {font-family: skolar-latin, serif;
 font-weight: 700;
@@ -47,17 +83,42 @@ margin-left: auto;
 margin-right: auto;
 margin-bottom: 50px;
 width: 45%;
-line-height:120%;}
+line-height:130%;}
 
-h4 {font-family: skolar-sans-latin, sans-serif;
+
+.subhead {
+font-family: skolar-sans-latin, sans-serif;
+font-weight: 400;
+font-style: italic;
+margin-top: 20px;
+margin-left: 30%;
+margin-bottom: 20px;
+font-size: 22px;
+letter-spacing: .75px;}
+
+.body-text 
+{font-family: skolar-sans-latin, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 14px
+margin-top: 20px;
+margin-left: 30%;
+width: 38%;
+padding-left: 25px;
+padding-bottom: 20px;
+line-height: 130%;}
+
+h4 
+{font-family: skolar-sans-latin, sans-serif;
 font-weight: 400;
 font-style: italic;
 font-size: 20px;}
 
-p {font-family: skolar-sans-latin, sans-serif;
-font-weight: 400;
+p 
+{font-family: skolar-sans-latin, sans-serif;
+font-weight: 200;
 font-style: normal;
-font-size: 14px;}
+font-size: 14px}
 
 .footer 
 {margin-top: 100px;
@@ -69,16 +130,9 @@ letter-spacing: 1px;
 font-size: 18px;
 font-variant: small-caps;}
 
-.brainmaze {width: 600px;
-margin-top: 100px;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-padding-bottom: 90px;
-padding-left: 80px;}
 
-.beautyproducts {width: 1000px;
+.beautyproducts 
+{width: 1000px;
 position: right;}
 
 .apps {width: 200px;}
