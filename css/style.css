@@ -41,6 +41,10 @@ margin-left: auto;
 margin-right: auto;
 width: 40%;}
 
+.beauty-page .page-title 
+{width: 300px;
+margin-bottom: 130px;}
+
 .mental-self-care 
 {background-image: linear-gradient( #ffffff, #CAEBFD);}
 
@@ -64,6 +68,43 @@ box-shadow: inset 0px -41px 42px -23px rgba(88,182,240,0.44);}
 color: #42B5E8;
 padding-right: 10px;} 
 
+.beauty-page 
+{background-image: linear-gradient( #ffffff, #FFC2FB);}
+
+.beauty-page .topnav 
+{background-color: #FFA8FD; 
+-webkit-box-shadow: inset 0px -21px 38px -16px rgba(255,127,255,1);
+-moz-box-shadow: inset 0px -21px 38px -16px rgba(255,127,255,1);
+box-shadow: inset 0px -21px 38px -16px rgba(255,127,255,1);}
+
+.beauty-page .footer 
+{text-align: center;
+color: #ff47ff;
+padding-right: 10px;}
+
+.grid3
+{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+width: 60%;
+grid-column-gap: 50px;
+padding-left: 18%;
+padding-right: auto;
+align-content: center;}
+
+.beauty-page .title
+{font-family: skolar-latin, serif;
+font-weight: 700;
+font-style: normal;
+font-size: 32px;
+margin-bottom:5px;
+text-align: center;
+width: 100%;
+line-height:120%}
+
+.beauty-page .subhead
+{width: 100%;
+font-size: 14px;}
+
 h1 {font-family: skolar-latin, serif;
 font-weight: 700;
 font-style: normal;
@@ -85,8 +126,33 @@ margin-bottom: 50px;
 width: 45%;
 line-height:130%;}
 
+.beauty-page h2 {width: 40%;
+text-justify: left;}
 
-.subhead {
+.beauty-page .subhead
+{font-family: skolar-sans-latin, sans-serif;
+font-weight: 400;
+font-style: italic;
+margin-top: 20px;
+margin-left: 30%;
+margin-bottom: 20px;
+font-size: 22px;
+letter-spacing: .75px;}
+
+.beauty-page .body-text
+{font-family: skolar-sans-latin, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 14px
+margin-top: 20px;
+margin-left: 30%;
+width: 38%;
+padding-left: 25px;
+padding-bottom: 20px;
+line-height: 130%;}
+
+
+.mental-self-care .subhead {
 font-family: skolar-sans-latin, sans-serif;
 font-weight: 400;
 font-style: italic;
@@ -96,7 +162,7 @@ margin-bottom: 20px;
 font-size: 22px;
 letter-spacing: .75px;}
 
-.body-text 
+.mental-self-care .body-text 
 {font-family: skolar-sans-latin, sans-serif;
 font-weight: 200;
 font-style: normal;
@@ -132,7 +198,14 @@ font-variant: small-caps;}
 
 
 .beautyproducts 
-{width: 1000px;
-position: right;}
+{width: 220px;
+position: center;
+padding: 50px;}
+
+.bath-bomb 
+{margin-top: 135px;}
+
+.hair-mask
+{margin-top: 135px;}
 
 .apps {width: 200px;}
