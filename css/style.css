@@ -1,3 +1,6 @@
+/*GENERAL STUFF*/
+
+
 ul 
 {list-style-type: none;
 margin: 0;
@@ -5,6 +8,39 @@ padding: 0;
 display: inline;}
 
 li {text-decoration: none;}
+
+h1 {font-family: skolar-latin, serif;
+font-weight: 700;
+font-style: normal;
+font-size: 32px;
+padding-bottom:25px;
+text-align: center;}
+
+h2 { 
+font-family: skolar-sans-latin, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 18px;
+text-align: justify;
+text-justify: inter-word;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+width: 45%;
+line-height:130%;}
+
+h4 
+{font-family: skolar-sans-latin, sans-serif;
+font-weight: 400;
+font-style: italic;
+font-size: 20px;}
+
+p 
+{font-family: skolar-sans-latin, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 14px}
 
 .menu 
 {float: right;
@@ -41,9 +77,18 @@ margin-left: auto;
 margin-right: auto;
 width: 40%;}
 
-.beauty-page .page-title 
-{width: 300px;
-margin-bottom: 130px;}
+.footer 
+{margin-top: 100px;
+margin-bottom: 30px;
+font-family: skolar-sans-latin-extended, sans-serif;
+font-weight: 600;
+font-style: normal;
+letter-spacing: 1px;
+font-size: 18px;
+font-variant: small-caps;}
+
+
+/*MENTAL PAGE*/
 
 .mental-self-care 
 {background-image: linear-gradient( #ffffff, #CAEBFD);}
@@ -63,10 +108,38 @@ padding-left: 80px;}
 -moz-box-shadow: inset 0px -41px 42px -23px rgba(88,182,240,0.44);
 box-shadow: inset 0px -41px 42px -23px rgba(88,182,240,0.44);}
 
+.mental-self-care .subhead {
+font-family: skolar-sans-latin, sans-serif;
+font-weight: 400;
+font-style: italic;
+margin-top: 20px;
+margin-left: 30%;
+margin-bottom: 20px;
+font-size: 22px;
+letter-spacing: .75px;}
+
+.mental-self-care .body-text 
+{font-family: skolar-sans-latin, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 14px
+margin-top: 20px;
+margin-left: 30%;
+width: 38%;
+padding-left: 25px;
+padding-bottom: 20px;
+line-height: 130%;}
+
 .mental-self-care .footer 
 {text-align: center;
 color: #42B5E8;
 padding-right: 10px;} 
+
+/*BEAUTY PAGE*/
+
+.beauty-page .page-title 
+{width: 300px;
+margin-bottom: 130px;}
 
 .beauty-page 
 {background-image: linear-gradient( #ffffff, #FFC2FB);}
@@ -105,26 +178,10 @@ line-height:120%}
 {width: 100%;
 font-size: 14px;}
 
-h1 {font-family: skolar-latin, serif;
-font-weight: 700;
-font-style: normal;
-font-size: 32px;
-padding-bottom:25px;
-text-align: center;}
-
-h2 { 
-font-family: skolar-sans-latin, sans-serif;
-font-weight: 200;
-font-style: normal;
-font-size: 18px;
-text-align: justify;
-text-justify: inter-word;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 50px;
-width: 45%;
-line-height:130%;}
+.grid3 .subs
+{width: 100%;
+justify-content: center;
+margin-left: -200px;}
 
 .beauty-page h2 {width: 40%;
 text-justify: left;}
@@ -134,7 +191,7 @@ text-justify: left;}
 font-weight: 400;
 font-style: italic;
 margin-top: 20px;
-margin-left: 30%;
+margin-left: 0%;
 margin-bottom: 20px;
 font-size: 22px;
 letter-spacing: .75px;}
@@ -149,53 +206,15 @@ margin-left: 30%;
 width: 38%;
 padding-left: 25px;
 padding-bottom: 20px;
-line-height: 130%;}
+line-height: 130%;
+vertical-align: center;}
 
+p .para .grid3
+{width: 100%;}
 
-.mental-self-care .subhead {
-font-family: skolar-sans-latin, sans-serif;
-font-weight: 400;
-font-style: italic;
-margin-top: 20px;
-margin-left: 30%;
-margin-bottom: 20px;
-font-size: 22px;
-letter-spacing: .75px;}
-
-.mental-self-care .body-text 
-{font-family: skolar-sans-latin, sans-serif;
-font-weight: 200;
-font-style: normal;
-font-size: 14px
-margin-top: 20px;
-margin-left: 30%;
-width: 38%;
-padding-left: 25px;
-padding-bottom: 20px;
-line-height: 130%;}
-
-h4 
-{font-family: skolar-sans-latin, sans-serif;
-font-weight: 400;
-font-style: italic;
-font-size: 20px;}
-
-p 
-{font-family: skolar-sans-latin, sans-serif;
-font-weight: 200;
-font-style: normal;
-font-size: 14px}
-
-.footer 
-{margin-top: 100px;
-margin-bottom: 30px;
-font-family: skolar-sans-latin-extended, sans-serif;
-font-weight: 600;
-font-style: normal;
-letter-spacing: 1px;
-font-size: 18px;
-font-variant: small-caps;}
-
+.links
+{margin-left: 40px;
+grid-gap: 80px;}
 
 .beautyproducts 
 {width: 220px;
@@ -207,5 +226,30 @@ padding: 50px;}
 
 .hair-mask
 {margin-top: 135px;}
+
+/*PHYSICAL PAGE*/
+
+.physical-page .page-title
+{width: 700px;
+margin-bottom: 130px;}
+
+.physical-page
+{background-image: linear-gradient( #FCFFF5, #E0FFA1);}
+
+.physical-page .topnav
+{background-color: #d5f585;
+-webkit-box-shadow: inset 0px -38px 31px -12px rgba(197,250,63,1);
+-moz-box-shadow: inset 0px -38px 31px -12px rgba(197,250,63,1);
+box-shadow: inset 0px -38px 31px -12px rgba(197,250,63,1);}
+
+.grid2
+{display: grid;
+grid-template-columns: 1fr 2fr;
+grid-gap: 30px;}
+
+.physical-page .footer
+{text-align: center;
+color: #6DC42A;
+padding-right: 10px;}
 
 .apps {width: 200px;}
