@@ -1,6 +1,5 @@
 /*GENERAL STUFF*/
 
-
 ul 
 {list-style-type: none;
 margin: 0;
@@ -59,7 +58,7 @@ font-variant: small-caps;}
 
 .home-button 
 {float: left;
-padding-left: 45px;}
+padding-left: 45px; }
 
 .topnav 
 {background-color: grey;
@@ -169,7 +168,7 @@ width: 70%;
 grid-column-gap: 50px; 
 justify-content: center;
  align-items: center;
- margin-left: 16%; margin-right: 5%;}
+ margin-left: 15%; margin-right: 5%;}
 
 .beauty-page .title
 {font-family: skolar-latin, serif;
@@ -205,7 +204,7 @@ width: 90%;
 line-height: 130%;
 text-align: left;
 display: block;
-margin-left: auto;
+margin-left: 25px;
 margin-right: auto}
 
 .links { position: center; padding-left: 20px;}
@@ -296,7 +295,7 @@ margin-bottom: 130px;}
 
 .about
 {background-image: linear-gradient( #fffbeb, #fcedab);
-height: 960px;}
+height: 1000px;}
 
 .about a {color: #EAA700;}
 
@@ -310,16 +309,82 @@ margin-top: 340px;}
 {font-family: skolar-sans-latin, sans-serif;
 font-weight: 200;
 font-style: normal;
-font-size: 14px
-margin-top: 20px;
-width: 50%;
-line-height: 130%;
+font-size: 18px;
+text-align: justify;
+text-justify: inter-word;
 display: block;
 margin-left: auto;
-margin-right: auto;}
-
-
-
-
+margin-right: auto;
+margin-bottom: 50px;
+width: 52%;
+line-height:135%;}
 
 /*INDEX PAGE*/
+
+.index
+{background-image: linear-gradient( #ffffff, #edd0ea);}
+
+.index img
+{width: 50%;
+margin-right: 25%;
+margin-left: 25%;}
+
+.index h2
+{margin-bottom: 100px;
+font-size: 25px;
+width: 50%;
+text-align: center;}
+
+.index .topnav
+{background-color: #FCF0FB;
+-webkit-box-shadow: inset 0px -24px 30px -12px rgba(242,223,240,1);
+-moz-box-shadow: inset 0px -24px 30px -12px rgba(242,223,240,1);
+box-shadow: inset 0px -24px 30px -12px rgba(242,223,240,1);}
+
+.index .topnav a
+{color: black;}
+
+.index .topnav .yellow a:hover 
+{color: #edd0ea;}
+
+.clickme
+{font-family: skolar-sans-latin-extended, sans-serif;
+font-weight: 600;
+font-style: normal;
+letter-spacing: 1px;
+font-size: 50px;
+font-variant: small-caps;
+display: inline-block;
+width: 15%;
+text-align: center;
+margin: 30px 10px 10px 10px;}
+
+.click a
+{color: black;}
+
+.click a:hover 
+{color: #C5FF32;}
+
+.pink a:hover
+{color: #ff47ff;}
+.blue a:hover
+{color: #42B5E8;}
+
+.click
+{margin-left: 25%;
+margin-right: 20%}
+
+.index .page-title
+{width: 30%;
+margin-left: 35%;
+margin-right: 35%;
+margin-bottom: 50px;}
+
+.index header
+{margin-top: 60px;}
+
+.index .footer
+{text-align: center;
+color: #ffffff;
+padding-right: 10px;
+margin-top: 200px;}
