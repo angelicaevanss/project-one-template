@@ -9,11 +9,14 @@ display: inline;}
 
 li {text-decoration: none;}
 
+a {
+text-decoration: none;}
+
 h1 {font-family: skolar-latin, serif;
 font-weight: 700;
 font-style: normal;
 font-size: 32px;
-padding-bottom:25px;
+padding-bottom:35px;
 text-align: center;}
 
 h2 { 
@@ -93,6 +96,8 @@ font-variant: small-caps;}
 .mental-self-care 
 {background-image: linear-gradient( #ffffff, #CAEBFD);}
 
+.mental-self-care a {color: #0C80BA;}
+
 .brainmaze {width: 600px;
 margin-top: 100px;
 display: block;
@@ -144,6 +149,8 @@ margin-bottom: 130px;}
 .beauty-page 
 {background-image: linear-gradient( #ffffff, #FFC2FB);}
 
+.beauty-page a {color: #B200B2;}
+
 .beauty-page .topnav 
 {background-color: #FFA8FD; 
 -webkit-box-shadow: inset 0px -21px 38px -16px rgba(255,127,255,1);
@@ -158,11 +165,11 @@ padding-right: 10px;}
 .grid3
 {display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-width: 60%;
-grid-column-gap: 50px;
-padding-left: 18%;
-padding-right: auto;
-align-content: center;}
+width: 70%;
+grid-column-gap: 50px; 
+justify-content: center;
+ align-items: center;
+ margin-left: 16%; margin-right: 5%;}
 
 .beauty-page .title
 {font-family: skolar-latin, serif;
@@ -174,15 +181,6 @@ text-align: center;
 width: 100%;
 line-height:120%}
 
-.beauty-page .subhead
-{width: 100%;
-font-size: 14px;}
-
-.grid3 .subs
-{width: 100%;
-justify-content: center;
-margin-left: -200px;}
-
 .beauty-page h2 {width: 40%;
 text-justify: left;}
 
@@ -191,30 +189,24 @@ text-justify: left;}
 font-weight: 400;
 font-style: italic;
 margin-top: 20px;
-margin-left: 0%;
-margin-bottom: 20px;
+margin-bottom: 30px;
 font-size: 22px;
-letter-spacing: .75px;}
+letter-spacing: .75px;
+width: 100%;
+text-align: center;}
 
 .beauty-page .body-text
 {font-family: skolar-sans-latin, sans-serif;
 font-weight: 200;
 font-style: normal;
-font-size: 14px
-margin-top: 20px;
-margin-left: 30%;
-width: 38%;
-padding-left: 25px;
-padding-bottom: 20px;
+font-size: 14px;
+margin-bottom: 30px;
+width: 90%;
 line-height: 130%;
-vertical-align: center;}
+text-align: left;
+margin-left: 6%;}
 
-p .para .grid3
-{width: 100%;}
-
-.links
-{margin-left: 40px;
-grid-gap: 80px;}
+.links { position: center; padding-left: 20px;}
 
 .beautyproducts 
 {width: 220px;
@@ -236,20 +228,57 @@ margin-bottom: 130px;}
 .physical-page
 {background-image: linear-gradient( #FCFFF5, #E0FFA1);}
 
+.physical-page a {color: #5D8700;}
+
 .physical-page .topnav
 {background-color: #d5f585;
 -webkit-box-shadow: inset 0px -38px 31px -12px rgba(197,250,63,1);
 -moz-box-shadow: inset 0px -38px 31px -12px rgba(197,250,63,1);
 box-shadow: inset 0px -38px 31px -12px rgba(197,250,63,1);}
 
+.physical-page h2 
+{margin-bottom: 120px;}
+
 .grid2
 {display: grid;
 grid-template-columns: 1fr 2fr;
-grid-gap: 30px;}
+grid-template-rows: 1fr 1fr;
+grid-gap: 60px 20px;
+align-items:center;
+transform: translate(6%, 5%);}
+
+.container {
+margin-bottom: 50px;
+}
+
+.physical-page .title 
+{font-family: skolar-latin, serif;
+font-weight: 700;
+font-style: normal;
+font-size: 26px;
+margin-bottom:20px;
+text-align: left;
+width: 100%;
+line-height:120%}
+
+.physical-page .subhead 
+{width: 100%;
+text-align: left;
+margin-bottom: 30px;}
 
 .physical-page .footer
 {text-align: center;
 color: #6DC42A;
 padding-right: 10px;}
 
-.apps {width: 200px;}
+.physical-page .body-text 
+{width: 57%;
+line-height: 130%;
+margin-bottom: 30px}
+
+.apps 
+{width: 230px;
+margin-left: 275px;}
+
+/*ABOUT PAGE*/
+/*INDEX PAGE*/
